@@ -19,6 +19,5 @@ const currentBlockData = [
         recipient: '1F2SDA1FSADDS3F21ASD'
     }
 ];
-const nonce = 100;
 
-console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, nonce));
+console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, 70298));
